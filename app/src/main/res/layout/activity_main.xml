@@ -22,7 +22,7 @@
         android:layout_height="47dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="skip test"
+        android:text="skip"
         android:textColor="@color/black"
         android:textSize="10dp"
         android:textStyle="bold"

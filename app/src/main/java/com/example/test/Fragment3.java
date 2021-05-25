@@ -26,4 +26,7 @@ public class Fragment3 extends Fragment {
 
         return view;
     }
+
+
+
 }

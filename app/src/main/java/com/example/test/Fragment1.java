@@ -16,6 +16,7 @@ import android.widget.LinearLayout;
 public class Fragment1 extends Fragment {
 
     private View view;
+    
 
     @Nullable
     @Override

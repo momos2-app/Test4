@@ -29,7 +29,9 @@
         android:text="닉네임"
         android:textStyle="bold"
         android:textSize="25dp"
+
         />
-    
+
+
 </RelativeLayout>
 

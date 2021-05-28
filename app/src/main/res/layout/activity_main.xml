@@ -18,11 +18,12 @@
 
     <Button
         android:id="@+id/skipbutton"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="219dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="132dp"
+        android:layout_marginBottom="120dp"
         android:gravity="center"
-        android:text="skip"
+        android:text="보기 싫다;;"
         android:textColor="@color/black"
         android:textSize="10dp"
         android:textStyle="bold"

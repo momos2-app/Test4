@@ -21,7 +21,7 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="219dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="36dp"
         android:gravity="center"
         android:text="보기 싫다;;"
         android:textColor="@color/black"

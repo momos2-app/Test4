@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/regis"
-        android:layout_width="381dp"
-        android:layout_height="702dp"
+        android:layout_width="415dp"
+        android:layout_height="867dp"
         android:src="@drawable/regis_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,14 +35,27 @@
         android:id="@+id/et_id"
         android:layout_width="315dp"
         android:layout_height="43dp"
-        android:layout_marginTop="376dp"
+        android:layout_marginTop="440dp"
         android:ems="10"
         android:hint="아이디"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_passck"
+        android:layout_width="315dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="비밀번호 확인"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_pass"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_pass"
+        app:layout_constraintTop_toBottomOf="@+id/et_pass" />
 
     <EditText
         android:id="@+id/et_pass"
@@ -57,34 +70,20 @@
         app:layout_constraintStart_toStartOf="@+id/et_id"
         app:layout_constraintTop_toBottomOf="@+id/et_id" />
 
-    <EditText
-        android:id="@+id/et_passck"
-        android:layout_width="315dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="비밀번호 확인"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/et_pass"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/et_pass"
-        app:layout_constraintTop_toBottomOf="@+id/et_pass" />
-
     <Button
         android:id="@+id/login2"
         android:layout_width="320dp"
         android:layout_height="47dp"
         android:layout_gravity="start"
-        android:layout_marginBottom="124dp"
+        android:layout_marginBottom="172dp"
         android:backgroundTint="#ffdb63"
         android:text="회원가입"
         android:textColor="@color/white"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

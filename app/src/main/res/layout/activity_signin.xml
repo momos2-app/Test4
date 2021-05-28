@@ -18,22 +18,24 @@
 
     <EditText
         android:id="@+id/et_name"
-        android:layout_width="317dp"
-        android:layout_height="46dp"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
         android:ems="10"
+        android:foregroundGravity="center"
         android:hint="닉네임"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/et_id"
         app:layout_constraintEnd_toEndOf="@+id/regis"
-        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.968" />
+        app:layout_constraintVertical_bias="0.969" />
 
     <EditText
         android:id="@+id/et_id"
-        android:layout_width="315dp"
-        android:layout_height="43dp"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:foregroundGravity="center"
         android:layout_marginTop="428dp"
         android:ems="10"
         android:hint="아이디"
@@ -45,8 +47,9 @@
 
     <EditText
         android:id="@+id/et_pass"
-        android:layout_width="315dp"
-        android:layout_height="44dp"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:foregroundGravity="center"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="비밀번호(8-12자리/숫자, 특수문자 조합)"
@@ -58,8 +61,9 @@
 
     <EditText
         android:id="@+id/et_passck"
-        android:layout_width="315dp"
-        android:layout_height="43dp"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:foregroundGravity="center"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="비밀번호 확인"
@@ -72,7 +76,8 @@
     <Button
         android:id="@+id/login2"
         android:layout_width="320dp"
-        android:layout_height="47dp"
+        android:layout_height="45dp"
+        android:foregroundGravity="center"
         android:layout_gravity="start"
         android:layout_marginBottom="92dp"
         android:backgroundTint="#ffdb63"

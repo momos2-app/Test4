@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <!-- TODO: Update blank fragment layout -->
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    android:orientation="vertical">
 
     <TextView
+        android:id="@+id/fragment"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:textSize="30sp"
@@ -31,6 +30,16 @@
 
 
     </LinearLayout>
+=======
+        android:layout_height="wrap_content"
+        android:text="프래그먼트2"
+        android:textSize="45dp" />
+>>>>>>> 18488ffe6ae665a9ee5b133cf9b922df38e7fe49
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메인 화면으로" />
 
-</FrameLayout>
+</LinearLayout>

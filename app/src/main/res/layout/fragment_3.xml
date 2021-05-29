@@ -8,7 +8,6 @@
     <TextView
         android:id="@+id/fragment"
         android:layout_width="match_parent"
-<<<<<<< HEAD
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:textSize="30sp"
@@ -24,7 +23,8 @@
             android:id="@+id/addButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="프로젝트 추가하기">
+            android:text="프로젝트 추가하기"
+            >
 
         </Button>
 

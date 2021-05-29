@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.test.FindID;
 import com.example.test.FirstActivity;
 import com.example.test.R;
 import com.example.test.SignedActivity;
@@ -17,6 +18,9 @@ public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
     private ActivityLoginBinding binding;
+
+    public LoginActivity() {
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -41,6 +45,15 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), FirstActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button imageButton19 = (Button) findViewById(R.id.find_id);
+        imageButton19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), FindID.class);
                 startActivity(intent);
             }
         });

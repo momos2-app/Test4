@@ -74,8 +74,8 @@
     <Button
         android:id="@+id/signed"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="188dp"
-        android:layout_height="44dp"
+        android:layout_width="142dp"
+        android:layout_height="45dp"
         android:backgroundTint="@color/white"
         android:gravity="center"
         android:text="회원가입"
@@ -83,10 +83,28 @@
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login"
-        app:layout_constraintVertical_bias="0.937"
+        app:layout_constraintVertical_bias="0.062"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/find_id"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="142dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="ID,PW 찾기"
+        android:textColor="#979797"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintVertical_bias="0.059"
         tools:ignore="MissingConstraints" />
 
     <Button

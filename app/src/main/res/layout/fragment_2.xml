@@ -45,7 +45,8 @@
             android:layout_gravity="center"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:text="커피" />
+            android:text="커피"
+            />
 
         <Button
             android:id="@+id/button11"

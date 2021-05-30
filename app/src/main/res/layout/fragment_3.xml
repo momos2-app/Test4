@@ -30,11 +30,6 @@
 
 
     </LinearLayout>
-=======
-        android:layout_height="wrap_content"
-        android:text="프래그먼트2"
-        android:textSize="45dp" />
->>>>>>> 18488ffe6ae665a9ee5b133cf9b922df38e7fe49
 
     <Button
         android:id="@+id/button2"

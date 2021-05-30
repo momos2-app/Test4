@@ -23,7 +23,7 @@
         android:layout_height="47dp"
         android:layout_marginBottom="36dp"
         android:gravity="center"
-        android:text="보기 싫다;;"
+        android:text="스킵버튼"
         android:textColor="@color/black"
         android:textSize="10dp"
         android:textStyle="bold"

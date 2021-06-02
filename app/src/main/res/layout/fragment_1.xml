@@ -6,45 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <TextView
         android:id="@+id/textView"
-        android:layout_width="177dp"
-        android:layout_height="56dp"
+        android:layout_width="166dp"
+        android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="77dp"
-        android:layout_marginTop="59dp"
-        android:text="닉네임"
-        android:textSize="25dp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="322dp"
-        android:layout_height="106dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:layout_marginStart="20dp"
-
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="20dp"
-
-        android:background="@drawable/rec_btn"
-        android:backgroundTint="#ffdb63" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="59dp"
-        android:layout_height="62dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="614dp"
-        tools:srcCompat="@tools:sample/avatars"
-        />
-
-
+        android:layout_marginTop="61dp"
+        android:text="닉네임을 받아옵니다"
+        android:textSize="15dp"
+        android:gravity="center"/>
 </RelativeLayout>
 

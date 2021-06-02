@@ -15,5 +15,17 @@ public class FindID extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.find_id);
+
+        Button imageButton27 = (Button) findViewById(R.id.relogin);
+        imageButton27.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(intent);
+            }
+
+
+        });
     }
 }

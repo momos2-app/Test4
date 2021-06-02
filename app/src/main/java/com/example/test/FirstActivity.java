@@ -7,11 +7,16 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.tabs.TabLayout;
+
+import java.util.ArrayList;
 
 
 public class FirstActivity extends AppCompatActivity {
+
     private BottomNavigationView bottomNavigationView; // 바텀네비게이션 뷰
     private FragmentManager manager;
     private FragmentTransaction transaction;
@@ -25,6 +30,7 @@ public class FirstActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.first_main);
+
 
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navi);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -51,6 +57,10 @@ public class FirstActivity extends AppCompatActivity {
         fragment3 = new Fragment3();
 
         setFrag(0); // 첫화면 설정
+
+
+
+
     }
 
     // 프래그먼트 교체가 일어나는 메서드
@@ -74,4 +84,7 @@ public class FirstActivity extends AppCompatActivity {
                 break;
         }
     }
+
+
+
 }

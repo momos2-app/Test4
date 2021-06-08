@@ -1,0 +1,38 @@
+diff a/app/src/main/res/layout/fragment_2.xml b/app/src/main/res/layout/fragment_2.xml	(rejected hunks)
+@@ -8,32 +8,23 @@
+     tools:context=".MainActivity">
+ 
+     <com.google.android.material.tabs.TabLayout
+-        android:id="@+id/tab_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+ 
+         <com.google.android.material.tabs.TabItem
+-            android:id="@+id/item1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:text="1번 탭" />
++            android:text="밥" />
+ 
+         <com.google.android.material.tabs.TabItem
+-            android:id="@+id/item2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:text="2번 탭" />
++            android:text="커피" />
+ 
+         <com.google.android.material.tabs.TabItem
+-            android:id="@+id/item3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:text="3번 탭" />
+-
++            android:text="쇼핑" />
+     </com.google.android.material.tabs.TabLayout>
+ 
+-    <androidx.viewpager.widget.ViewPager
+-        android:id="@+id/viewpager"
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent" />
+ </LinearLayout>
+\ No newline at end of file

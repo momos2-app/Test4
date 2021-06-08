@@ -15,6 +15,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.google.android.material.tabs.TabLayout;
+
+import java.util.ArrayList;
+
 public class Fragment2 extends Fragment {
 
     Button addButton;
@@ -22,7 +26,9 @@ public class Fragment2 extends Fragment {
 
 
 
+
     private View view;
+
 
 
     @Nullable
@@ -34,7 +40,11 @@ public class Fragment2 extends Fragment {
         return view;
     }
 
+
+
 }
+
+
 
 
 

@@ -16,14 +16,19 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.google.android.material.tabs.TabLayout;
+<<<<<<< HEAD
+
+import java.util.ArrayList;
+
+public class Fragment2 extends Fragment {
+=======
+>>>>>>> a99d49e8bd8495db773436717a0b29f37caae58e
 
 import java.util.ArrayList;
 
 public class Fragment2 extends Fragment {
 
     Button addButton;
-
-
 
 
 
@@ -44,9 +49,12 @@ public class Fragment2 extends Fragment {
 
 }
 
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+>>>>>>> a99d49e8bd8495db773436717a0b29f37caae58e
